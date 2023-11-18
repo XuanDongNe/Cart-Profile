@@ -29,6 +29,7 @@ body {
     /*canh giua man hinh*/
     overflow: hidden;
     margin: 20px auto;
+    transition: .4s;
 }
 
 .card p {
@@ -83,4 +84,10 @@ button:hover {
     border-radius: unset;
     margin-top: unset;
     border: none;
+}
+
+.card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.605);
+    
 }
